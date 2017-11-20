@@ -20,6 +20,8 @@
 # Device-specific ofono configuration
 Provides: ofono-configs
 
+%define ofono_enable_plugins hfp_bluez5,hfp_ag_bluez5
+
 %include droid-configs-device/droid-configs.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
