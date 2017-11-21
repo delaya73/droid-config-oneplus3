@@ -17,6 +17,9 @@
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.6
 
+# We assume most devices will
+%define have_modem 1
+
 # Device-specific ofono configuration
 Provides: ofono-configs
 
