@@ -14,6 +14,7 @@ Requires:
 - droid-config-oneplus3-flashing
 - droid-config-oneplus3-bluez5
 - droid-hal-version-oneplus3
+- droid-hal-oneplus3-detritus
 
 # Hybris packages
 - libhybris-libEGL
