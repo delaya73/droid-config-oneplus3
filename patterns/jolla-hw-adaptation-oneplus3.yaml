@@ -52,6 +52,9 @@ Requires:
 - gstreamer1.0-omx
 - gstreamer1.0-libav
 
+# For flashlight support
+- jolla-settings-system-flashlight
+
 # This is needed for notification LEDs
 - mce-plugin-libhybris
 
