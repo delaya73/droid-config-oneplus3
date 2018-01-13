@@ -21,9 +21,6 @@ Requires:
 - libhybris-libGLESv2
 - libhybris-libwayland-egl
 
-# Bluetooth
-- bluetooth-rfkill-event-hciattach
-
 # Sensors
 - hybris-libsensorfw-qt5
 
