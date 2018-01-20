@@ -6,6 +6,7 @@ Name: jolla-hw-adaptation-oneplus3
 Requires:
 - droid-hal-oneplus3
 - droid-hal-oneplus3-img-boot
+- droid-hal-oneplus3-kernel
 - droid-hal-oneplus3-kernel-modules
 - droid-config-oneplus3-sailfish
 - droid-config-oneplus3-pulseaudio-settings
