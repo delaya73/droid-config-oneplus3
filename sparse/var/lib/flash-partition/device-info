@@ -1,0 +1,7 @@
+CPUCHECK_STRING="Qualcomm Technologies, Inc MSM8996"
+
+PART_1="boot"
+
+PART_REAL_1="sde18"
+
+PART_I="1" 
