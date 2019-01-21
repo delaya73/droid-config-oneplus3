@@ -1,0 +1,1 @@
+/system/etc/firmware/rampatch_tlv_3.2.tlv
