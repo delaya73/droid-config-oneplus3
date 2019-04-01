@@ -25,6 +25,7 @@
 # Device-specific ofono configuration
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
+Obsoletes: bluez-configs-sailfish
 
 %define ofono_enable_plugins hfp_ag_bluez5
 
