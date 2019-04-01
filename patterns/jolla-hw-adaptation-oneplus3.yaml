@@ -17,6 +17,8 @@ Requires:
 - droid-hal-version-oneplus3
 - droid-hal-oneplus3-detritus
 
+-bluez5
+
 # Hybris packages
 - libhybris-libEGL
 - libhybris-libGLESv2
