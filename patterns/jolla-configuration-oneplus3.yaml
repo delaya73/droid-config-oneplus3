@@ -15,6 +15,12 @@ Requires:
 
 - sailfish-content-graphics-z@ICON_RES@
 
+# For NFC support  
+- jolla-settings-system-nfc
+
+# For flashlight support
+- jolla-settings-system-flashlight
+
 # For multi-SIM devices
 - jolla-settings-networking-multisim
 
