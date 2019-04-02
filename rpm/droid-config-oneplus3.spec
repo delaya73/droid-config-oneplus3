@@ -26,6 +26,8 @@
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 
+Obsoletes: qt5-qpa-surfaceflinger-plugin
+
 %define ofono_enable_plugins hfp_ag_bluez5
 
 %include droid-configs-device/droid-configs.inc
