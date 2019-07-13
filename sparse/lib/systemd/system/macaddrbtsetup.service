@@ -1,0 +1,12 @@
+[Unit]
+Description=macaddrbtsetup
+After=droid-hal-init.service
+Before=connman.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/sh /usr/bin/droid/macaddrbtsetup.sh
+
+[Install]
+WantedBy=network.target
