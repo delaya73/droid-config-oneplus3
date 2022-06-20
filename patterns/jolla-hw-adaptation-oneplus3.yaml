@@ -53,8 +53,8 @@ Requires:
 - nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
 - gstreamer1.0-droid
-- gstreamer1.0-omx
-- gstreamer1.0-libav
+#- gstreamer1.0-omx
+#- gstreamer1.0-libav
 
 # For flashlight support
 - jolla-settings-system-flashlight
@@ -80,7 +80,7 @@ Requires:
 - rfkill
 
 # enable device lock and allow to select untrusted software
-- jolla-devicelock-plugin-encsfa
+- jolla-devicelock-daemon-encsfa
 
 # For GPS
 - geoclue-provider-hybris
@@ -88,6 +88,9 @@ Requires:
 # For FM radio on some QCOM devices
 #- qt5-qtmultimedia-plugin-mediaservice-irisradio
 #- jolla-mediaplayer-radio
+
+# For devices with SD Card
+- sd-utils
 
 Summary: Jolla HW Adaptation oneplus3
 
